@@ -10,9 +10,8 @@
 **项目功能包括：**
 
 -   基于 Node.js + Koa.js 的服务端 API 接口：[nodejs-koa-blog](https://github.com/vittorezhang/nodejs-koa-blog)
--   管理后台（Vue.js / React.js）：[vue-blog-admin](https://github.com/vittorezhang/vue-blog-admin),
-    [react-blog-admin](https://github.com/vittorezhang/react-blog-admin)
--   前端网站（Vue.js / Nuxt.js）：[nextjs-blog](https://github.com/vittorezhang/nextjs-blog)，[nuxtjs-blog-web](https://github.com/vittorezhang/nuxtjs-blog-web)
+-   管理后台（React.js）：[react-blog-admin](https://github.com/vittorezhang/react-blog-admin)
+-   前端网站（Next.js）：[nextjs-blog](https://github.com/vittorezhang/nextjs-blog)，[nuxtjs-blog-web]
 -   使用 PM2 进行部署
 
 ### 二、技术优点
