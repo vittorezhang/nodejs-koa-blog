@@ -9,10 +9,10 @@
 
 **项目功能包括：**
 
--   基于 Node.js + Koa.js 的服务端 API 接口：[nodejs-koa-blog](https://github.com/lfb/nodejs-koa-blog)
--   管理后台（Vue.js / React.js）：[vue-blog-admin](https://github.com/lfb/vue-blog-admin),
-    [react-blog-admin](https://github.com/lfb/react-blog-admin)
--   前端网站（Vue.js / Nuxt.js）：[nextjs-blog](https://github.com/lfb/nextjs-blog)，[nuxtjs-blog-web](https://github.com/lfb/nuxtjs-blog-web)
+-   基于 Node.js + Koa.js 的服务端 API 接口：[nodejs-koa-blog](https://github.com/vittorezhang/nodejs-koa-blog)
+-   管理后台（Vue.js / React.js）：[vue-blog-admin](https://github.com/vittorezhang/vue-blog-admin),
+    [react-blog-admin](https://github.com/vittorezhang/react-blog-admin)
+-   前端网站（Vue.js / Nuxt.js）：[nextjs-blog](https://github.com/vittorezhang/nextjs-blog)，[nuxtjs-blog-web](https://github.com/vittorezhang/nuxtjs-blog-web)
 -   使用 PM2 进行部署
 
 ### 二、技术优点
@@ -49,7 +49,7 @@
 **3.1.克隆项目代码**
 
 ```
-https://github.com/lfb/nodejs-koa-blog.git
+https://github.com/vittorezhang/nodejs-koa-blog.git
 ```
 
 **3.2.创建数据库**
@@ -73,7 +73,7 @@ DB_PASSWORD = 'bobo1024.'
 ```
 # 登录数据库
 
-mysql -uroot -p密码
+mysql -u root -p密码
 
 # 创建 boblog 数据库
 
@@ -112,12 +112,12 @@ npm run dev 或者 yarn dev
 > 答：首先，请检查一下使用 npm 或 yarn 安装依赖包没。然后，再请检查一下确保安装好数据库，新建好数据库：boblog，请看上面的数据库配置。最后看下启动 \>
 > 打印日志是否有报错的信息。
 
-4.3. ... 更多问题请到 [Issues](https://github.com/lfb/nodejs-koa-blog/issues) 查阅，或者有问题请到
-[Issues 提问](https://github.com/lfb/nodejs-koa-blog/issues/new)。
+4.3. ... 更多问题请到 [Issues](https://github.com/vittorezhang/nodejs-koa-blog/issues) 查阅，或者有问题请到
+[Issues 提问](https://github.com/vittorezhang/nodejs-koa-blog/issues/new)。
 
 ## License
 
-[MIT](https://github.com/lfb/nodejs-koa-blog/blob/master/LICENSE), by LFB
+[MIT](https://github.com/vittorezhang/nodejs-koa-blog/blob/master/LICENSE), by vittorezhang
 
 喜欢或对你有帮助的话，请你点一个星星 <strong style="color:red;">star</strong> 鼓励我，或者您有更好的建议和意见，请提出来告知我，可以留言
-[Issues](https://github.com/lfb/nodejs-koa-blog/issues/new)。希望能够帮助到你学习！Thanks！共勉！
+[Issues](https://github.com/vittorezhang/nodejs-koa-blog/issues/new)。希望能够帮助到你学习！Thanks！共勉！

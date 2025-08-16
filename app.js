@@ -3,6 +3,7 @@ const InitManager = require('./core/init')
 const parser = require('koa-bodyparser')
 const cors = require('@koa/cors')
 const ratelimit = require('koa-ratelimit')
+const { getLocalIP } = require('./getIp')
 
 const dotenv = require('dotenv')
 const envFile = process.env.NODE_ENV === 'production' ? '.env.production' : '.env.development'
@@ -57,7 +58,7 @@ InitManager.initCore(app)
 
 let serverLogs = `
     当前环境: ${process.env.NODE_ENV}
-    Node.js 已启动服务，地址: http://localhost:${process.env.NODE_PORT}
+    Node.js 已启动服务，地址: http://${getLocalIP()}:${process.env.NODE_PORT}    
 `
 app.listen(process.env.NODE_PORT, () => console.log(serverLogs))
 

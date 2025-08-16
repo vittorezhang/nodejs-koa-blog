@@ -36,7 +36,7 @@ router.get('/', async ctx => {
     <h1>欢迎您， 来到 Koa.js 世界！</h1>
     <h2>使用手册</h2>
     <ul>
-        <li>可以先看看接口问题：<a target="_blank" href="https://github.com/lfb/nodejs-koa-blog/tree/master/doc">Documents</a>
+        <li>可以先看看接口问题：<a target="_blank" href="https://github.com/vittorezhang/nodejs-koa-blog/tree/master/doc">Documents</a>
         </li>
         <li>本地下载好 Postman API 调试工具：<a target="_blank" href="https://www.postman.com/downloads/">Download Postman</a>
         </li>
@@ -52,7 +52,7 @@ router.get('/', async ctx => {
     <div>有些接口需要登录token权限才能操作，如何获取 token 呢？</div>
     <ul>
         <li>
-            首先，在管理员的文档中：<a target="_blank" href="https://github.com/lfb/nodejs-koa-blog/blob/master/doc/admin.md">管理员接口文档</a>
+            首先，在管理员的文档中：<a target="_blank" href="https://github.com/vittorezhang/nodejs-koa-blog/blob/master/doc/admin.md">管理员接口文档</a>
             我们找到注册管理员的接口，在 postman 进行注册一个账号
         </li>
         <li>
